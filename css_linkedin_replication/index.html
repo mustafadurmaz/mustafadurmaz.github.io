@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin Replication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="./img/logo.svg" alt="">
+            </a>
+
+            <div class="search">
+                <i class="icon-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+    
+            <nav class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">
+                            <i class="icon-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon-users"></i>
+                            <span>Users</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon-briefcase"></i>
+                            <span>Jobs</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon-message"></i>
+                            <span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon-notification"></i>
+                            <span>Notifications</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon-grid"></i>
+                            <span>Applications</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <div class="user-menu">
+                <a href="#">
+                    <span class="detail">
+                        <span class="name">Mustafa Durmaz</span>
+                        <span class="status online">Online</span>
+                    </span>
+                    <img src="./img/avatar.png" alt="">
+                    <i class="icon-down-open"></i>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>  
+        <div class="container">
+            <div class="sidebar">
+                <div class="widget widget-stats">
+                    <div class="stat-user">
+                        <div class="cover"></div>
+                        <div class="avatar">
+                            <img src="./img/avatar.png" alt="">
+                        </div>
+                        <div class="name">Mustafa Durmaz</div>
+                        <div class="job-title">Front End Developer</div>
+                    </div>
+
+                    <ul>
+                        <li>
+                            <span class="key">Who viewed your profile?</span>
+                            <span class="value">56</span>
+                        </li>
+                        <li>
+                            <span class="key">Views of your post?</span>
+                            <span class="value">212</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="widget widget-newest">
+                    <h6>NEWEST</h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="icon-hash"></i>
+                                money</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-hash"></i>
+                                economy</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-hash"></i>
+                                covid-19</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-hash"></i>
+                                futurusizm</a>
+                        </li>
+                    </ul>
+                    <h6>GROUP
+                        <div class="dropdown">
+                            <a href="#">
+                                Active <i class="icon-down-open"></i>
+                            </a>
+                        </div>
+                    </h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="icon-users"></i>
+                                Javascript Developers Group
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-users"></i>
+                                React Group
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-users"></i>
+                                Phantom Group
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-users"></i>
+                                Design Group
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+
+                <a href="#" class="widget widget-btn">
+                    Add Event
+                    <i class="icon-plus"></i>
+                </a>
+                <a href="#" class="widget widget-btn more">
+                    Find more
+                    <i class="icon-plus"></i>
+                </a>
+            </div>
+    
+            <div class="content">
+                <div class="create-post">
+                    <textarea name="" placeholder="Create post..." id="" cols="30" rows="10"></textarea>
+                    <ul class="actions">
+                        <li>
+                            <label>
+                                <input type="file" accept="image/*">
+                                <i class="icon-camera"></i>
+                                Photo
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="file">
+                                <i class="icon-video"></i>
+                                Video
+                            </label>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-calendar"></i>
+                                Event
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon-edit"></i>
+                                Write articles
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="filter-box">
+                    <h6>Filter post by</h6>
+                    <label class="select-box">
+                        <select name="" id="">
+                            <option value="">Popular</option>
+                            <option value="">Not Popular</option>
+                        </select>
+                        <i class="icon-down-open"></i>
+                    </label>
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <a href="#" class="post-author">
+                            <img src="./img/avatar.png" alt="">
+                            <div class="detail">
+                                <div class="name">John Kennedy</div>
+                                <div class="job-title">Web Developer</div>
+                                <div class="date">7 hours aga</div>
+                            </div>
+                        </a>
+                        <a href="#" class="more">
+                            <i class="icon-dot-3"></i>
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <p>
+                            Don’t give up on your dreams, or your dreams will give up on you.
+                        </p>
+                        <p>
+                            <a href="#">future</a> <a href="#">target</a> <a href="#">nevergiveup</a>
+                        </p>
+                        <p>
+                            <img src="./img/giveup.jpg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="post-alt-detail">
+                        <div class="likes">
+                            
+                            <i class="icon-heart"></i>
+                            <i class="icon-thumbs-up"></i>
+                            150
+                        </div>
+                        <div class="comments">
+                            5 comments
+                        </div>
+                    </div>
+
+                    <div class="post-actions">
+                        <a href="#">
+                            <i class="icon-thumbs-up"></i>Like
+                        </a>
+                        <a href="#">
+                            <i class="icon-message"></i>Comment
+                        </a>
+                        <a href="#">
+                            <i class="icon-share"></i>Share
+                        </a>
+                        <a href="#">
+                            <i class="icon-send"></i>Send
+                        </a>
+                    </div>
+
+                    <div class="post-comment-form">
+                        <img src="./img/avatar.png" alt="">
+                        <div class="textarea">
+                            <textarea name="" placeholder="Write comment" id="" cols="30" rows="10"></textarea>
+                            <label>
+                                <input type="file" name="" id="" accept="image/*">
+                                <i class="icon-camera"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <a href="#" class="post-author">
+                            <img src="./img/avatar.png" alt="">
+                            <div class="detail">
+                                <div class="name">John Kennedy</div>
+                                <div class="job-title">Web Developer</div>
+                                <div class="date">7 hours aga</div>
+                            </div>
+                        </a>
+                        <a href="#" class="more">
+                            <i class="icon-dot-3"></i>
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <p>
+                            Don’t give up on your dreams, or your dreams will give up on you.
+                        </p>
+                        <p>
+                            <a href="#">future</a> <a href="#">target</a> <a href="#">nevergiveup</a>
+                        </p>
+                        <p>
+                            <img src="./img/giveup.jpg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="post-alt-detail">
+                        <div class="likes">
+                            
+                            <i class="icon-heart"></i>
+                            <i class="icon-thumbs-up"></i>
+                            150
+                        </div>
+                        <div class="comments">
+                            5 comments
+                        </div>
+                    </div>
+
+                    <div class="post-actions">
+                        <a href="#">
+                            <i class="icon-thumbs-up"></i>Like
+                        </a>
+                        <a href="#">
+                            <i class="icon-message"></i>Comment
+                        </a>
+                        <a href="#">
+                            <i class="icon-share"></i>Share
+                        </a>
+                        <a href="#">
+                            <i class="icon-send"></i>Send
+                        </a>
+                    </div>
+
+                    <div class="post-comment-form">
+                        <img src="./img/avatar.png" alt="">
+                        <div class="textarea">
+                            <textarea name="" placeholder="Write comment" id="" cols="30" rows="10"></textarea>
+                            <label>
+                                <input type="file" name="" id="" accept="image/*">
+                                <i class="icon-camera"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post">
+                    <div class="post-header">
+                        <a href="#" class="post-author">
+                            <img src="./img/avatar.png" alt="">
+                            <div class="detail">
+                                <div class="name">John Kennedy</div>
+                                <div class="job-title">Web Developer</div>
+                                <div class="date">7 hours aga</div>
+                            </div>
+                        </a>
+                        <a href="#" class="more">
+                            <i class="icon-dot-3"></i>
+                        </a>
+                    </div>
+                    <div class="post-content">
+                        <p>
+                            Don’t give up on your dreams, or your dreams will give up on you.
+                        </p>
+                        <p>
+                            <a href="#">future</a> <a href="#">target</a> <a href="#">nevergiveup</a>
+                        </p>
+                        <p>
+                            <img src="./img/giveup.jpg" alt="">
+                        </p>
+                    </div>
+
+                    <div class="post-alt-detail">
+                        <div class="likes">
+                            
+                            <i class="icon-heart"></i>
+                            <i class="icon-thumbs-up"></i>
+                            150
+                        </div>
+                        <div class="comments">
+                            5 comments
+                        </div>
+                    </div>
+
+                    <div class="post-actions">
+                        <a href="#">
+                            <i class="icon-thumbs-up"></i>Like
+                        </a>
+                        <a href="#">
+                            <i class="icon-message"></i>Comment
+                        </a>
+                        <a href="#">
+                            <i class="icon-share"></i>Share
+                        </a>
+                        <a href="#">
+                            <i class="icon-send"></i>Send
+                        </a>
+                    </div>
+
+                    <div class="post-comment-form">
+                        <img src="./img/avatar.png" alt="">
+                        <div class="textarea">
+                            <textarea name="" placeholder="Write comment" id="" cols="30" rows="10"></textarea>
+                            <label>
+                                <input type="file" name="" id="" accept="image/*">
+                                <i class="icon-camera"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    
+            <div class="sidebar">
+                <div class="widget widget-recommendation">
+                    <h6>Add to your feeds</h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="image">
+                                    <img src="./img/brand1.png" alt="">
+                                </span>
+                                <span class="details">
+                                    <span class="name">Techin Asia</span>
+                                    <span class="alt-name">Corporate - Online Media</span>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <i class="icon-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="image">
+                                    <img src="./img/brand2.png" alt="">
+                                </span>
+                                <span class="details">
+                                    <span class="name">Panter Squadron</span>
+                                    <span class="alt-name">Education Center</span>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <i class="icon-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="image">
+                                    <img src="./img/brand3.png" alt="">
+                                </span>
+                                <span class="details">
+                                    <span class="name">Techin Asia</span>
+                                    <span class="alt-name">Corporate - Online Media</span>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <i class="icon-plus"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                    <a href="" class="widget-button">
+                        See all recommendation
+                    </a>
+                </div>
+
+                <div class="widget widget-advertisement">
+                    <h6>
+                        <div>
+                            Advertisement
+                            <span class="description">
+                                Get the latest news and job vacancies
+                            </span>
+                            
+                        </div>
+                        <a href="#" class="more-btn">
+                            <i class="icon-dot-3"></i>
+                        </a>
+                    </h6>
+                    <div class="get-updates">
+                        <div class="avatars">
+                            <a href="#">
+                                <img src="./img/spook.jpg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./img/brand4.png" alt="">
+                            </a>
+                        </div>
+                        <p>Mustafa, Get update from <span>Interaction Design Foundations</span> </p>
+                    </div>
+                    <div class="widget-button">
+                        Visit Now
+                    </div>
+                </div>
+
+                <footer class="footer">
+
+                    <nav>
+                        <a href="#">
+                            About
+                        </a>
+                        <a href="#">
+                            Help Center
+                        </a>
+                        <a href="#">
+                            Accessibility
+                        </a>
+                        <a href="#">
+                            Privacy&Terms
+                        </a>
+                        <a href="#">
+                            Ad Choices
+                        </a>
+                        <a href="#">
+                            Advertising
+                        </a>
+                        <a href="#">
+                            Business Services
+                        </a>
+                        <a href="#">
+                            Get the Linkedin up
+                        </a>
+                        <a href="#">
+                            More
+                        </a>
+                    </nav>
+
+                    <div class="copyright">
+                        <p>
+                            LinkedIn Corporation © 2021
+
+                        </p>
+                        <a href="#">
+                            <img src="./img/logo.svg" alt="">
+                        </a>
+                    </div>
+
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="message-box">
+        <div class="message-header">
+            <div class="image">
+                <img src="./img/avatar.png" alt="">
+            </div>
+            Messaging
+            <div class="actions">
+                <a href="#">
+                    <i class="icon-edit"></i>
+                </a>
+                <a href="#">
+                    <i class="icon-dot-3"></i>
+                </a>
+                <a href="#">
+                    <i class="icon-up-open"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js">
+
+</script>    
+</body>
+</html>
